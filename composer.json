@@ -1,0 +1,13 @@
+{
+  "name": "HansenBlakestudentgreenriveredu/328/pets",
+  "authors": [
+{
+  "name": "Blake Hansen",
+  "email": "hansen.blake@student.greenriver.edu"
+}
+    ],
+  "require":
+  {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
