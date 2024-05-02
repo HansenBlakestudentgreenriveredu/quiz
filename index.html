@@ -6,8 +6,43 @@
 </head>
 <body>
 
-<h1>Midterm Survey</h1>
-<a href="surveyLink">Take my Midterm Survey</a>
+<div class="container">
+    <h1>Midterm Survey</h1>
+    <a href="surveyLink">Take my Midterm Survey</a>
+
+    <form action="#" method="post" class="form-horizontal">
+
+        <!-- get name -->
+        <div class="form-group">
+            <label for="firstName" class="col-sm-4 control-label">Name</label>
+            <div class="col-sm-4"><input class="form-control" type="text"
+                                         name="firstName" id="firstName" ></div>
+        </div>
+        <br>
+
+        <!-- get check box data -->
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Check all that apply</label>
+            <div class="col-sm-4">
+                <label><input type="checkbox" name="sur[]" value="easy">This midterm is easy</label><br>
+                <label><input type="checkbox" name="sur[]" value="like">I like midterms</label><br>
+                <label><input type="checkbox" name="sur[]" value="monday">Today is Monday</label><br>
+            </div>
+        </div>
+        <br>
+
+        <!-- submit button -->
+        <div class = "row">
+            <div class = "col-12">
+                <nav>
+                    <a type ="button" class="btn btn-primary"
+                       href="survey">NEXT</a>
+                </nav>
+            </div>
+        </div>
+
+    </form>
+</div>
 
 </body>
 </html>
